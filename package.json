@@ -1,0 +1,35 @@
+{
+  "name": "nextjs-assignment-base",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "cypress open",
+    "cy:run": "cypress run",
+    "cy:open": "cypress open"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.0.18",
+    "classnames": "^2.3.2",
+    "formidable": "^2.1.2",
+    "next": "12.2.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/formidable": "^3.4.0",
+    "@types/node": "^20.4.4",
+    "@types/react": "^18.2.16",
+    "autoprefixer": "^10.4.14",
+    "cypress": "^12.17.2",
+    "cypress-file-upload": "^5.0.8",
+    "eslint": "8.20.0",
+    "eslint-config-next": "12.2.2",
+    "postcss": "^8.4.27",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.1.6"
+  }
+}
